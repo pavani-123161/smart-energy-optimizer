@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    background: #f4f7fb;
+}
+
+.dashboard {
+    padding: 40px;
+}
+
+.dashboard h1 {
+    margin-bottom: 10px;
+}
+
+.dashboard p {
+    margin-bottom: 30px;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+
+    width: 250px;
+
+    border-radius: 12px;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .1);
+}
+
+.card h2 {
+    margin-bottom: 15px;
+}
+
+form {
+    margin-top: 40px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 15px;
+
+    max-width: 300px;
+}
+
+input {
+    padding: 12px;
+}
+
+button {
+    padding: 12px;
+
+    cursor: pointer;
+}
+
+.machine-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background: white;
+}
+
+.machine-table th,
+.machine-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.machine-table th {
+    background: #2c7be5;
+    color: white;
+}
+
+.machine-table tr:nth-child(even) {
+    background: #f5f5f5;
+}
+
+button {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.machine-table button {
+    background: #dc3545;
+    color: white;
+}
+
+.machine-table button:hover {
+    background: #bb2d3b;
+}
+
+.sidebar {
+    width: 240px;
+    min-height: 100vh;
+    background: #1f2937;
+    color: white;
+    padding: 30px 20px;
+}
+
+.sidebar h2 {
+    margin-bottom: 40px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 15px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.sidebar li:hover {
+    background: #374151;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: white;
+
+    padding: 20px 30px;
+
+    border-radius: 10px;
+
+    margin-bottom: 25px;
+}
+
+.layout {
+    display: flex;
+}
+
+.content {
+    flex: 1;
+    padding: 30px;
+    background: #f4f7fb;
+}

@@ -1,11 +1,16 @@
 export default function Header() {
     return (
-        <div className="header">
-            <h2>Welcome, Admin 👋</h2>
+        <header className="header">
 
             <div>
-                Friday, July 3
+                <h2>Smart Energy Optimizer</h2>
+                <p>Monitor • Analyze • Save Energy</p>
             </div>
-        </div>
+
+            <div>
+                👤 Pavani
+            </div>
+
+        </header>
     )
 }
